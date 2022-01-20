@@ -48,8 +48,8 @@ public class APTests {
 
 
         driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-        login.enterUser("cyry123@yahoo.com");
-        login.enterPass("123asd");
+        login.enterUser("test.123106@yahoo.com");
+        login.enterPass("test12345");
         login.clickLogin();
         driver.get("http://www.automationpractice.com");
         home.clickTShirts();

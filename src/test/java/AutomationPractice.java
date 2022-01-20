@@ -69,8 +69,8 @@ public class AutomationPractice {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         driver.manage().window().maximize();
         driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-        driver.findElement(By.id("email")).sendKeys("cyry123@yahoo.com");
-        driver.findElement(By.id("passwd")).sendKeys("123asd");
+        driver.findElement(By.id("email")).sendKeys("test.123106@yahoo.com");
+        driver.findElement(By.id("passwd")).sendKeys("test12345");
         driver.findElement(By.id("SubmitLogin")).click();
     }
 
@@ -81,8 +81,8 @@ public class AutomationPractice {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         driver.manage().window().maximize();
         driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-        driver.findElement(By.id("email")).sendKeys("cyry123@yahoo.com");
-        driver.findElement(By.id("passwd")).sendKeys("123asd");
+        driver.findElement(By.id("email")).sendKeys("test.123106@yahoo.com");
+        driver.findElement(By.id("passwd")).sendKeys("test12345");
         driver.findElement(By.id("SubmitLogin")).click();
         driver.get("http://www.automationpractice.com");
         Actions action = new Actions(driver);

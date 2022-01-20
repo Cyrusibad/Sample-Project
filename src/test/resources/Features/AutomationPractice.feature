@@ -6,7 +6,7 @@ Feature: automation practice web application
     Then user is logged in
     Examples:
       | username | password |
-      |cyry123@yahoo.com|123asd|
+      |test.123106@yahoo.com|test12345|
 
   Scenario: Testing functionalities of T-Shirts Tab
     Given user is in the home page of AutomationPractice site
@@ -37,7 +37,7 @@ Feature: automation practice web application
     Then order will be complete
     Examples:
       | username | password |
-      |cyry123@yahoo.com|123asd|
+      |test.123106@yahoo.com|test12345|
 
   Scenario: Testing functionalities of Dresses tab
     Given user is in the home page of AutomationPractice site
@@ -63,7 +63,7 @@ Feature: automation practice web application
     When user verifies the total price
     Examples:
       | username | password |
-      |cyry123@yahoo.com|123asd|
+      |test.123106@yahoo.com|test12345|
 
   Scenario Outline: Testing search functionality
     Given user is in the home page of AutomationPractice site
